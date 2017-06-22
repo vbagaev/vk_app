@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    min-height: 50px;
+    margin-top: -50px;
+    .container {
+    	background-color: #ddd;
+    }
+}
+
+.footer__left {
+    float: left;
+    width: 50%;
+}
+
+.footer__right {
+    float: right;
+    width: 50%;
+}
+
+.copyright {
+    @include fira(light);
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 10px;
+}

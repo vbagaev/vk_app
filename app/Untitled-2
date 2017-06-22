@@ -1,0 +1,27 @@
+<script type="text/x-handlebars-template" id="friendsRequestsTemplate">                                        
+                                        <div class="col-xs-5 col-xs-offset-1 content__center">
+                                                <div class="friends-sidelist">
+                                                    <h2 class="friends-sidelist__header">
+                                                        Приглашения в друзья
+                                                    </h2>
+                                                    <ul class="friends-sidelist-items">
+                                                        <li class="friends-sidelist__item">
+                                                            <div class="friends-sidelist__left">
+                                                                <div class="friends-sidelist__photo">
+                                                                    <img src="https://pp.userapi.com/c618323/v618323166/9180/ARtJ-zGktEA.jpg" alt="" class="img-circle">
+                                                                </div>
+                                                           </div>
+                                                            <div class="friends-sidelist__right">
+                                                                <div class="friends-sidelist__name">
+                                                                    Галина Багаева
+                                                                </div>
+                                                                <div class="friends-sidelist__buttons">
+                                                                    <a class="btn btn-default btn-blue" href="#" role="button">Добавить в друзья</a>
+                                                                    <a class="btn btn-default btn-blue" href="#" role="button">Отклонить</a>
+                                                                </div>
+                                                            </div> 
+                                                        </li>
+                                                    </ul>    
+                                                </div>                                            
+                                        </div>
+</script>

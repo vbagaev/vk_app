@@ -1,0 +1,259 @@
+.content__buttons {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+
+}
+
+.content__left {
+	//background: red;
+	//height: 700px;
+}
+
+.content__right {
+	//background: blue;
+	//height: 700px;
+}
+
+.messages {
+	//background-color: green;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px 25px;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.content__message {
+	text-align: center;
+}
+.content__message-text {
+	background-color: #c63131;
+	padding: 5px;
+	color: #fff;
+}
+
+.messages__header, .groups__header, .friends-sidelist__header {
+	font-size: 16px;
+	color: #333;
+}
+
+.messages-items__item {
+
+}
+.messages-items__left {
+	float: left;
+}
+.messages-items__right {
+	float: right;
+}
+
+.messages-items__item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.messages-items__item {
+	@extend %clearfix;
+	height: 60px;
+	&:hover {
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+.messages-items__right {
+	width: 85%;
+	height: 60px;
+	border-bottom: 1px solid #ddd;
+}
+.messages-items__photo {
+	margin-left: 5px;
+}
+
+.groups-list {
+	//background-color: green;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px 25px;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+.groups-items__item {
+	@extend %clearfix;
+	//height: 60px;
+	&:hover {
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+.groups-items__left {
+	float: left;
+}
+.groups-items__right {
+	float: right;
+}
+
+.groups-items__item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.groups-items__item {
+	@extend %clearfix;
+	height: 128px;
+	&:hover {
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+.groups-items__right {
+	width: 85%;
+	height: 128px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+.groups-items__photo {
+	margin-left: 5px;
+}
+
+.btn-blue {
+	background-color: #5e81a8;
+	color: #fff;
+}
+
+
+.news {
+	width: 800px;
+	margin: 0 auto;
+}
+.news__item {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px 25px;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+.content__center-left {
+	float: left;
+
+}
+
+
+.content__center-right {
+	float: left;
+}
+.content__center-header {
+	@extend %clearfix;
+}
+.content__center-name {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.content__main-text {
+	padding: 10px;
+}
+
+.content__main-img {
+	text-align: center;
+	padding: 10px;
+}
+
+.friends {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 0 20px;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+
+.friends__item {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	height: 80px;
+	box-sizing: content-box;
+	@extend %clearfix;
+	font-size: 14px;
+}
+
+.friends__item-left {
+	float: left;
+
+}
+.friends__item-photo {
+	height: 80px;
+	width: 80px;
+}
+.friends__item-right {
+	float: left;
+	margin-left: 15px;
+	padding: 10px;
+}
+.friends__item-name {
+	font-size: 16px;
+}
+.friends__item-status {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .friends__photo {
+// 	text-align: center;
+// }
+// .friends__name {
+// 	font-size: 14px;
+// }
+
+.friends-sidelist {
+	//background-color: green;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px 25px;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+
+
+.friends-sidelist__left {
+	float: left;
+}
+.friends-sidelist__right {
+	float: right;
+	width: 85%;
+	height: 72px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+
+.friends-sidelist__item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	@extend %clearfix;
+	height: 72px;
+	&:hover {
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+.friends-sidelist__photo {
+	margin-left: 5px;
+}
+
+.friends-sidelist__buttons {
+
+}
+.friends-sidelist__name {
+	margin-bottom: 10px;
+}
